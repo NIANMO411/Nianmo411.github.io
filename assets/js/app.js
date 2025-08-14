@@ -1,0 +1,1 @@
+(function(){const r=document.documentElement;const k='theme';const s=localStorage.getItem(k);if(s==='light')r.classList.add('light');const b=document.getElementById('mode');if(b){b.addEventListener('click',()=>{r.classList.toggle('light');localStorage.setItem(k,r.classList.contains('light')?'light':'dark');});}})();
